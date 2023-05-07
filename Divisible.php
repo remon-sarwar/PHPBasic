@@ -1,6 +1,6 @@
 
 <?php
-echo " Assignment 1 (Print It  Problem) </br>";
+echo " Assignment 1 (Print it  Problem) </br>";
 
 
 echo "Hello, world! I am learning C programming language. ^_^ </br>";
@@ -25,7 +25,7 @@ $n = $_POST['n'];
 
 <?php 
 
-if($n / 3 ==0){
+if($n % 3 ==0){
     echo "Yes";
 }
 

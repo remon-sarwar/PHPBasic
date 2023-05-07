@@ -16,7 +16,7 @@ $n = $_POST['n'];
 
 for($i = 1; $i<=$n; $i++){
 
-    if($n / 5 == 0){
+    if($n % 5 == 0){
         echo "Yes";
     }
     else{
