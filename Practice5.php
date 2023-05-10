@@ -16,12 +16,12 @@ $n = $_POST['n'];
 
 for($i = 1; $i<=$n; $i++){
 
-    if($n % 5 == 0){
-        echo "Yes";
+    if($i % 5 == 0){
+        echo $i. 'Yes </br>';
     }
     else{
 
-        echo "No";
+        echo  $i. 'Yes </br>';
     }
     
 
